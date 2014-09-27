@@ -100,9 +100,6 @@ After editing your inittab file should look like:
 	::shutdown:/etc/init.d/rcS K shutdown
 	#ttyATH0::askfirst:/bin/ash --login
 
-####Uploading the firmata sketch to the Yun
-Just upload the yunode.ino (included in the repository) to your arduino Yun. You can do this using the arduino IDE.
-
 ####Running
 From your arduino Yun's terminal, cd into the directory of the project:
 
